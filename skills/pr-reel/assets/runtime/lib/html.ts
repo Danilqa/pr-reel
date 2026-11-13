@@ -30,7 +30,7 @@ export const baseCss = `
 :root {
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --black: #000000; --surface: #0F0F0F; --raised: #161616; --line: rgba(255, 255, 255, .1);
-  --white: #FFFFFF; --muted: #A1A1A1; --faint: #6B6B6B; --track: #2A2A2A;
+  --white: #FFFFFF; --muted: #A1A1A1; --faint: #6B6B6B; --track: #2A2A2A; --highlight: #FACC15;
   --shadow-window: 0 40px 80px -30px rgba(0, 0, 0, 1), 0 0 0 1px rgba(255, 255, 255, .1);
   --shadow-card: 0 24px 48px -24px rgba(0, 0, 0, 1), 0 0 0 1px rgba(255, 255, 255, .1);
 }
