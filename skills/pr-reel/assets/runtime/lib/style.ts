@@ -67,14 +67,13 @@ export const stageCaption = ({ layout: { caption }, timeline }: StageContext, in
     caption
   )
 
-export const introCard = ({ layout: { canvas }, timeline: { title, ticket, summary, steps } }: StageContext) => {
+export const introCard = ({ layout: { canvas }, timeline: { title, ticket, summary } }: StageContext) => {
   const pad = Math.round(canvas.width * 0.1)
   return htmlDocument(
     `<div style="width:100%;height:100%;background:${STAGE_BACKGROUND};display:flex;flex-direction:column;justify-content:center;padding:0 ${pad}px;gap:26px">
       ${ticket ? `<div><span class="chip chip-outline">${escapeHtml(ticket)}</span></div>` : ''}
       <h1 style="font-size:${Math.round(canvas.width * 0.042)}px;line-height:1.08;font-weight:800;letter-spacing:-.02em;color:var(--white);max-width:${Math.round(canvas.width * 0.7)}px">${escapeHtml(title)}</h1>
       ${summary ? `<p style="font-size:${Math.round(canvas.width * 0.018)}px;line-height:1.35;color:var(--muted);max-width:${Math.round(canvas.width * 0.62)}px">${escapeHtml(summary)}</p>` : ''}
-      <p style="margin-top:8px;font-size:15px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)">${steps.length} steps</p>
     </div>`,
     '',
     canvas
