@@ -1,0 +1,10 @@
+{
+  "name": "pr-reel-runtime",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15"
+  }
+}

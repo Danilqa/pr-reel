@@ -1,0 +1,13 @@
+{
+  "name": "pr-reel",
+  "version": "0.1.0",
+  "description": "Shows what a pull request changed, right on the PR: a demo video, before/after screenshots, or a before/after table",
+  "author": {
+    "name": "Daniil Sitdikov"
+  },
+  "homepage": "https://github.com/Danilqa/pr-reel",
+  "repository": "https://github.com/Danilqa/pr-reel",
+  "license": "MIT",
+  "skills": "./skills/",
+  "keywords": ["pull-request", "demo", "video", "screenshots", "before-after", "playwright"]
+}
