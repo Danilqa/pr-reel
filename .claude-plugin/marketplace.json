@@ -11,7 +11,7 @@
     {
       "name": "pr-reel",
       "source": "./",
-      "description": "Shows a pull request's change on the PR: a captioned demo video, before/after screenshots, or a before/after table for changes without UI",
+      "description": "Shows what a pull request changed, right on the PR: a demo video, before/after screenshots, or a before/after table",
       "version": "0.1.0",
       "keywords": ["pull-request", "demo", "video", "screenshots", "before-after", "playwright"],
       "category": "development",

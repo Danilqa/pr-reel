@@ -1,6 +1,6 @@
 ---
 name: pr-reel
-description: Shows a pull request's change on the PR itself, in one of three formats - a captioned walkthrough video for a flow, before/after screenshots on a black page for a single screen, or plain-English bullets with a before/after table when nothing visible changed. Records with Playwright against the app running locally and attaches with gh. Use when a branch needs a demo for its pull request - "record a demo", "make a walkthrough video", "before and after screenshots for the PR", "show what changed", "pr reel" - or when opening a PR with a visible change.
+description: Shows what a pull request changed, right on the PR - a demo video, before/after screenshots, or a before/after table. Use when a PR needs a demo or screenshots, or when the user says "record a demo", "show what changed" or "pr reel".
 ---
 
 # pr-reel
