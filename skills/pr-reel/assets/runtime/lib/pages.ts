@@ -34,7 +34,7 @@ body { background: var(--black); padding: 56px 64px 64px; }
 .label { margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
 .card { position: relative; border-radius: 14px; overflow: hidden; background: var(--surface); box-shadow: var(--shadow-card); }
 .card img { display: block; width: 100%; height: auto; }
-.hl { position: absolute; border: 3px solid var(--white); border-radius: 8px; box-shadow: 0 0 0 2px var(--black), inset 0 0 0 2px var(--black), 0 0 0 9999px rgba(0,0,0,.12); }
+.hl { position: absolute; border: 3px solid var(--highlight); border-radius: 8px; box-shadow: 0 0 0 2px var(--black), inset 0 0 0 2px var(--black), 0 0 0 9999px rgba(0,0,0,.12); }
 .hl-ghost { position: absolute; border: 3px dashed var(--muted); border-radius: 8px; box-shadow: 0 0 0 1px rgba(0,0,0,.5); }
 .note { margin-top: 18px; display: flex; gap: 12px; align-items: flex-start; font-size: 19px; line-height: 1.35; color: var(--muted); }
 .note::before { content: ''; flex: none; width: 4px; align-self: stretch; border-radius: 2px; background: var(--white); }

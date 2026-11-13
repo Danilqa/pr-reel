@@ -121,7 +121,7 @@ export function overlayInitScript(hidden: string) {
         hole.id = 'pr-reel-spotlight'
         hole.style.cssText =
           'position:fixed;border-radius:12px;box-shadow:0 0 0 9999px rgba(0,0,0,.55);' +
-          'outline:3px solid #fff;outline-offset:2px;opacity:0;transition:opacity .35s ease, left .35s ease, top .35s ease, width .35s ease, height .35s ease;'
+          'outline:3px solid #FACC15;outline-offset:2px;opacity:0;transition:opacity .35s ease, left .35s ease, top .35s ease, width .35s ease, height .35s ease;'
         root.appendChild(hole)
       }
       const pad = 8
