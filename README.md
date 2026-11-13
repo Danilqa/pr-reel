@@ -4,6 +4,8 @@
 
 <img src="media/demo.gif" width="720" alt="A captioned walkthrough of a pull request, ending on its before/after page">
 
+<sub>An example of how it works: the reel pr-reel made for <a href="https://github.com/Danilqa/kombinat/pull/41">Kombinat #41</a>, a captioned walkthrough and then the before/after page.</sub>
+
 An agent skill. Ask for a reel on a branch, and your agent records the change against your app and attaches it to the PR: a captioned video for a flow, before/after screenshots for one screen, or a before/after table when nothing visible changed.
 
 ## Install
