@@ -4,14 +4,14 @@
     "name": "Daniil Sitdikov"
   },
   "metadata": {
-    "description": "A captioned demo video and before/after screenshots for every pull request",
+    "description": "A captioned demo video, before/after screenshots or a before/after table for every pull request",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "pr-reel",
       "source": "./",
-      "description": "Records a captioned demo video and before/after screenshots of a pull request's change and attaches them to the PR",
+      "description": "Shows a pull request's change on the PR: a captioned demo video, before/after screenshots, or a before/after table for changes without UI",
       "version": "0.1.0",
       "keywords": ["pull-request", "demo", "video", "screenshots", "before-after", "playwright"],
       "category": "development",

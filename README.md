@@ -2,11 +2,15 @@
 
 Your agent records a captioned demo and a before/after of every pull request.
 
-Ask for a reel on a branch and the agent frames the change as a user story, writes a Playwright scenario, records it against your app running locally, replays the same flow on the merge base, and attaches the results to the PR:
+Ask for a reel on a branch and the agent frames the change, records it against your app running locally, replays it on the merge base, and attaches the result to the PR in the format that fits:
 
-- **a 10–25 s video**: intro card, one caption per step, a visible cursor with click ripples, a spotlight on the payoff
-- **a before/after page**: side by side, zoomed on the change, or a storyboard for a new screen
-- **a before/after table** for backend changes: the same request or command against both versions
+| The change | On the PR |
+|---|---|
+| A flow | A 10–25 s video (intro card, one caption per step, a visible cursor with click ripples, a spotlight on the payoff) and a before/after page |
+| One screen | Before/after screenshots on the same black page: side by side, or zoomed on the change |
+| Nothing visible | Plain-English bullets and a before/after table: the same request or command against both versions |
+
+Name a format ("just screenshots", "a video", "a table") and the agent uses that one.
 
 ## Install
 
@@ -43,7 +47,7 @@ Playwright and its Chromium are installed into the runtime on the first run.
 
 | Step | What happens |
 |---|---|
-| Frame | Reads the diff, the PR and the ticket; writes down the page, the 3–6 actions and the payoff |
+| Frame | Reads the diff, the PR and the ticket; picks the format; writes down the page, the 3–6 actions and the payoff |
 | Script | Writes `scenarios/<slug>.reel.ts`: Playwright with captioned steps, `reel.click`, `reel.spotlight` |
 | Record | Runs it against the working tree (video) and against the merge base in a git worktree (screenshots) |
 | Compose | Builds the mp4 with ffmpeg and the before/after pages with headless Chromium |
