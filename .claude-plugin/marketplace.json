@@ -1,0 +1,21 @@
+{
+  "name": "pr-reel",
+  "owner": {
+    "name": "Daniil Sitdikov"
+  },
+  "metadata": {
+    "description": "A captioned demo video and before/after screenshots for every pull request",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pr-reel",
+      "source": "./",
+      "description": "Records a captioned demo video and before/after screenshots of a pull request's change and attaches them to the PR",
+      "version": "0.1.0",
+      "keywords": ["pull-request", "demo", "video", "screenshots", "before-after", "playwright"],
+      "category": "development",
+      "skills": "./skills/"
+    }
+  ]
+}
