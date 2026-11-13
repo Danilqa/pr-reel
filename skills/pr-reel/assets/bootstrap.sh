@@ -43,7 +43,7 @@ if [ ! -f "$DEST/config.sh" ]; then
 fi
 
 status=0
-command -v node >/dev/null || { echo "✗ node missing — install Node.js 20 or newer"; status=1; }
+command -v node >/dev/null || { echo "✗ node missing — install Node.js 22 or newer"; status=1; }
 command -v ffmpeg >/dev/null || { echo "✗ ffmpeg missing — brew install ffmpeg (or your package manager)"; status=1; }
 command -v gh >/dev/null || echo "· gh is not installed; attach the files to the PR by hand"
 if [ $status -eq 0 ]; then

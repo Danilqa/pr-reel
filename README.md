@@ -27,6 +27,16 @@ As a Claude Code plugin:
 /plugin install pr-reel@pr-reel
 ```
 
+With npm:
+
+```bash
+npx pr-reel                        # Claude Code, every project: ~/.claude/skills/pr-reel
+npx pr-reel --project              # Claude Code, this repository: .claude/skills/pr-reel
+npx pr-reel --dir <skills folder>  # any other agent's skills folder
+```
+
+Run it again to update.
+
 ## Use
 
 On a branch with a visible change:
@@ -37,7 +47,7 @@ The first run installs a small runtime next to the repository, in `<repo>--pr-re
 
 ## Requirements
 
-- git, Node.js 20 or newer and ffmpeg
+- git, Node.js 22 or newer and ffmpeg
 - [gh](https://cli.github.com) to attach the files to the PR
 - an app that starts locally with one command, and data the agent can mock or seed
 
