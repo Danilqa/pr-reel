@@ -1,12 +1,14 @@
 # pr-reel
 
-> A demo reel for every pull request
+> A demo video for every pull request, recorded by your agent
 
 <img src="media/demo.gif" width="720" alt="A captioned walkthrough of a pull request, ending on its before/after page">
 
-<sub>Example of how it works: the reel pr-reel made for <a href="https://github.com/Danilqa/kombinat/pull/41">Kombinat #41</a>, a captioned walkthrough and before/after screenshots</sub>
+<sub>Example: the video pr-reel recorded for <a href="https://github.com/Danilqa/kombinat/pull/41">Kombinat #41</a>. It clicks through the changed flow with captions, then ends on before/after screenshots</sub>
 
-An agent skill. Ask for a reel on a branch, and your agent records the change against your app and attaches it to the PR: a captioned video for a flow, before/after screenshots for one screen, or a before/after table when nothing visible changed.
+An agent skill. Ask for a reel on a branch, and your agent starts your app, clicks through the changed flow in a browser and **records it as a video**, with captions and a visible cursor. The video goes on the PR, where GitHub plays it inline, with before/after screenshots next to it.
+
+Not every change is a flow: a change to one screen gets just the before/after screenshots, and a change with nothing visible gets a before/after table.
 
 ## Install
 
